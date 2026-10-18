@@ -1,7 +1,9 @@
-# Sport - Eventi: distribuzione Kodi
+# SIP
 
-Sorgente Kodi: https://bonalapizza9.github.io/sport-eventi-kodi/
+![SIP](logo.png)
 
-Installa repository.sporteventi-1.0.0.zip, poi scegli Sport - Eventi dagli add-on video del repository.
+Kodi source: https://bonalapizza9.github.io/SIP/
 
-Pacchetti pubblici, senza credenziali. Sviluppo separato in un repository privato.
+Install repository.sporteventi-1.1.0.zip, then SIP Repository > Video add-ons > SIP.
+
+Public packages. Development repository stays private.
