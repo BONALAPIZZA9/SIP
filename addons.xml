@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="plugin.video.calcio" name="Sport - Eventi" version="0.14.0" provider-name="Local">
+  <requires><import addon="xbmc.python" version="3.0.0" /><import addon="inputstream.adaptive" version="2.4.0" /></requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py"><provides>video</provides></extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="it_IT">Eventi e player StreamFree per sport, con immagini delle partite.</summary>
+    <description lang="it_IT">Calcio, pallavolo, football americano, basket, hockey, baseball, UFC e F1 da StreamFree e ZicoTV. Ogni evento mantiene i player assegnati dalla propria fonte.</description>
+    <platform>all</platform><license>MIT</license>
+  </extension>
+</addon><addon id="repository.sporteventi" name="Sport - Eventi Repository" version="1.0.0" provider-name="BONALAPIZZA9">
+  <requires><import addon="xbmc.addon" version="12.0.0" /></requires>
+  <extension point="xbmc.addon.repository" name="Sport - Eventi Repository">
+    <dir minversion="19.0.0">
+      <info compressed="false">https://raw.githubusercontent.com/BONALAPIZZA9/sport-eventi-kodi/main/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/BONALAPIZZA9/sport-eventi-kodi/main/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/BONALAPIZZA9/sport-eventi-kodi/main/zips/</datadir>
+      <hashes>false</hashes>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="it_IT">Installazione e aggiornamenti di Sport - Eventi.</summary>
+    <description lang="it_IT">Distribuzione pubblica dell'addon Sport - Eventi per Kodi 19 e successivi.</description>
+    <platform>all</platform><license>MIT</license>
+  </extension>
+</addon></addons>

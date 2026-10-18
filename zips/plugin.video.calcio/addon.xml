@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.calcio" name="Sport - Eventi" version="0.14.0" provider-name="Local">
+  <requires><import addon="xbmc.python" version="3.0.0"/><import addon="inputstream.adaptive" version="2.4.0"/></requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py"><provides>video</provides></extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="it_IT">Eventi e player StreamFree per sport, con immagini delle partite.</summary>
+    <description lang="it_IT">Calcio, pallavolo, football americano, basket, hockey, baseball, UFC e F1 da StreamFree e ZicoTV. Ogni evento mantiene i player assegnati dalla propria fonte.</description>
+    <platform>all</platform><license>MIT</license>
+  </extension>
+</addon>
