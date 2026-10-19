@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.calcio" name="SIP" version="0.16.0" provider-name="Local">
+<addon id="plugin.video.calcio" name="SIP" version="0.16.1" provider-name="YpsilonItas">
   <requires><import addon="xbmc.python" version="3.0.0"/><import addon="inputstream.adaptive" version="2.4.0"/></requires>
   <extension point="xbmc.python.pluginsource" library="addon.py"><provides>video</provides></extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">Sports</summary>
-    <assets><icon>resources/icon-by-ema.png</icon><fanart>resources/fanart.png</fanart></assets>
+    <assets><icon>resources/icon-upsilon.png</icon><fanart>resources/fanart.png</fanart></assets>
     <platform>all</platform><license>MIT</license>
   </extension>
 </addon>

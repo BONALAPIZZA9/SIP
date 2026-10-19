@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="plugin.video.calcio" name="SIP" version="0.16.0" provider-name="Local">
+<addons><addon id="plugin.video.calcio" name="SIP" version="0.16.1" provider-name="YpsilonItas">
   <requires><import addon="xbmc.python" version="3.0.0" /><import addon="inputstream.adaptive" version="2.4.0" /></requires>
   <extension point="xbmc.python.pluginsource" library="addon.py"><provides>video</provides></extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">Sports</summary>
-    <assets><icon>resources/icon-by-ema.png</icon><fanart>resources/fanart.png</fanart></assets>
+    <assets><icon>resources/icon-upsilon.png</icon><fanart>resources/fanart.png</fanart></assets>
     <platform>all</platform><license>MIT</license>
   </extension>
-</addon><addon id="repository.sporteventi" name="SIP Repository" version="1.1.1" provider-name="BONALAPIZZA9">
+</addon><addon id="repository.sporteventi" name="SIP Repository" version="1.2.0" provider-name="YpsilonItas">
   <requires><import addon="xbmc.addon" version="12.0.0" /></requires>
   <extension point="xbmc.addon.repository" name="SIP Repository">
     <dir minversion="19.0.0">
-      <info compressed="false">https://raw.githubusercontent.com/BONALAPIZZA9/SIP/main/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/BONALAPIZZA9/SIP/main/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/BONALAPIZZA9/SIP/main/zips/</datadir>
+      <info compressed="false">https://raw.githubusercontent.com/YpsilonItas/SIP/main/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/YpsilonItas/SIP/main/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/YpsilonItas/SIP/main/zips/</datadir>
       <hashes>false</hashes>
     </dir>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">SIP</summary>
-    <assets><icon>icon-by-ema.png</icon></assets>
+    <assets><icon>icon-upsilon.png</icon></assets>
     <platform>all</platform><license>MIT</license>
   </extension>
 </addon></addons>
